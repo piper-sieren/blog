@@ -2,66 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>http://www.piperwilliams.work/</loc>
     <lastmod>2023-07-28T14:21:21-07:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>http://www.piperwilliams.work/categories/</loc>
     <lastmod>2023-07-28T14:21:21-07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/iisssl/</loc>
+    <loc>http://www.piperwilliams.work/post/iisssl/</loc>
     <lastmod>2023-07-28T14:21:21-07:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/iis/</loc>
+    <loc>http://www.piperwilliams.work/categories/iis/</loc>
     <lastmod>2023-07-28T14:21:21-07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/openssl/</loc>
+    <loc>http://www.piperwilliams.work/tags/openssl/</loc>
     <lastmod>2023-07-28T14:21:21-07:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/</loc>
+    <loc>http://www.piperwilliams.work/post/</loc>
     <lastmod>2023-07-28T14:21:21-07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/ssl/</loc>
+    <loc>http://www.piperwilliams.work/tags/ssl/</loc>
     <lastmod>2023-07-28T14:21:21-07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>http://www.piperwilliams.work/tags/</loc>
     <lastmod>2023-07-28T14:21:21-07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/windows/</loc>
+    <loc>http://www.piperwilliams.work/tags/windows/</loc>
     <lastmod>2023-07-28T14:21:21-07:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/windows/</loc>
+    <loc>http://www.piperwilliams.work/categories/windows/</loc>
     <lastmod>2023-07-28T14:21:21-07:00</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>http://www.piperwilliams.work/about/</loc>
     <lastmod>2023-07-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/.net/</loc>
+    <loc>http://www.piperwilliams.work/tags/.net/</loc>
     <lastmod>2021-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/azure/</loc>
+    <loc>http://www.piperwilliams.work/tags/azure/</loc>
     <lastmod>2021-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/azureblobstorage/</loc>
+    <loc>http://www.piperwilliams.work/post/azureblobstorage/</loc>
     <lastmod>2021-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/blob-storage/</loc>
+    <loc>http://www.piperwilliams.work/tags/blob-storage/</loc>
     <lastmod>2021-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/azure/</loc>
+    <loc>http://www.piperwilliams.work/categories/azure/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/powershell/</loc>
+    <loc>http://www.piperwilliams.work/tags/powershell/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/powershell/</loc>
+    <loc>http://www.piperwilliams.work/categories/powershell/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/markdown-syntax/</loc>
+    <loc>http://www.piperwilliams.work/post/markdown-syntax/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
+    <loc>http://www.piperwilliams.work/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/index/</loc>
+    <loc>http://www.piperwilliams.work/tags/index/</loc>
   </url>
 </urlset>

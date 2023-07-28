@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on Piper Williams | Blog</title>
-    <link>https://example.com/tags/index/</link>
+    <link>http://www.piperwilliams.work/tags/index/</link>
     <description>Recent content in index on Piper Williams | Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://example.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="http://www.piperwilliams.work/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>https://example.com/post/</link>
+      <link>http://www.piperwilliams.work/post/</link>
       <pubDate>Fri, 28 Jul 2023 14:21:21 -0700</pubDate>
       
-      <guid>https://example.com/post/</guid>
+      <guid>http://www.piperwilliams.work/post/</guid>
       <description></description>
     </item>
     

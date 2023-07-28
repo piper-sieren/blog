@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Azure on Piper Williams | Blog</title>
-    <link>https://example.com/tags/azure/</link>
+    <link>http://www.piperwilliams.work/tags/azure/</link>
     <description>Recent content in Azure on Piper Williams | Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.piperwilliams.work/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure Blob Storage &#43; .NET Client Library</title>
-      <link>https://example.com/post/azureblobstorage/</link>
+      <link>http://www.piperwilliams.work/post/azureblobstorage/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/azureblobstorage/</guid>
+      <guid>http://www.piperwilliams.work/post/azureblobstorage/</guid>
       <description>Azure offers Blob Storage as the cloud storage solution. Blob Storage is a way of storing substantial amounts of unstructured data: data that doesn&amp;rsquo;t adhere to a specific data model or definition- data that can&amp;rsquo;t go into rows and columns. For example, video, audio, image, log files, text files, etc. Azure Blob Storage has three types of resources to offer:
 The Storage Account Container(s) within the storage account Blob(s) within the Container Prerequisites Azure Subscription Azure Storage Account The current .</description>
     </item>
     
     <item>
       <title>Use a Windows VM system-assigned managed identity to access Azure Storage via a SAS credential</title>
-      <link>https://example.com/post/markdown-syntax/</link>
+      <link>http://www.piperwilliams.work/post/markdown-syntax/</link>
       <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/markdown-syntax/</guid>
+      <guid>http://www.piperwilliams.work/post/markdown-syntax/</guid>
       <description>Prerequisites Assigning TLS1.2 to Storage Account and VM
 Adding the VM to the firewall subnet inclusions
 Create a System Managed Identity and assign to VM

@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "http://www.piperwilliams.work"
 title = "Piper Williams | Blog"
 languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language

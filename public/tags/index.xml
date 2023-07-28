@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Piper Williams | Blog</title>
-    <link>https://example.com/tags/</link>
+    <link>http://www.piperwilliams.work/tags/</link>
     <description>Recent content in Tags on Piper Williams | Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Jul 2023 14:21:21 -0700</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jul 2023 14:21:21 -0700</lastBuildDate><atom:link href="http://www.piperwilliams.work/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OpenSSL</title>
-      <link>https://example.com/tags/openssl/</link>
+      <link>http://www.piperwilliams.work/tags/openssl/</link>
       <pubDate>Fri, 28 Jul 2023 14:21:21 -0700</pubDate>
       
-      <guid>https://example.com/tags/openssl/</guid>
+      <guid>http://www.piperwilliams.work/tags/openssl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SSL</title>
-      <link>https://example.com/tags/ssl/</link>
+      <link>http://www.piperwilliams.work/tags/ssl/</link>
       <pubDate>Fri, 28 Jul 2023 14:21:21 -0700</pubDate>
       
-      <guid>https://example.com/tags/ssl/</guid>
+      <guid>http://www.piperwilliams.work/tags/ssl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>https://example.com/tags/windows/</link>
+      <link>http://www.piperwilliams.work/tags/windows/</link>
       <pubDate>Fri, 28 Jul 2023 14:21:21 -0700</pubDate>
       
-      <guid>https://example.com/tags/windows/</guid>
+      <guid>http://www.piperwilliams.work/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>.Net</title>
-      <link>https://example.com/tags/.net/</link>
+      <link>http://www.piperwilliams.work/tags/.net/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/.net/</guid>
+      <guid>http://www.piperwilliams.work/tags/.net/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Azure</title>
-      <link>https://example.com/tags/azure/</link>
+      <link>http://www.piperwilliams.work/tags/azure/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/azure/</guid>
+      <guid>http://www.piperwilliams.work/tags/azure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blob Storage</title>
-      <link>https://example.com/tags/blob-storage/</link>
+      <link>http://www.piperwilliams.work/tags/blob-storage/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/blob-storage/</guid>
+      <guid>http://www.piperwilliams.work/tags/blob-storage/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PowerShell</title>
-      <link>https://example.com/tags/powershell/</link>
+      <link>http://www.piperwilliams.work/tags/powershell/</link>
       <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/powershell/</guid>
+      <guid>http://www.piperwilliams.work/tags/powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>index</title>
-      <link>https://example.com/tags/index/</link>
+      <link>http://www.piperwilliams.work/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/index/</guid>
+      <guid>http://www.piperwilliams.work/tags/index/</guid>
       <description></description>
     </item>
     

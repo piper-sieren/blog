@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Piper Williams | Blog</title>
-    <link>https://example.com/post/</link>
+    <link>http://www.piperwilliams.work/post/</link>
     <description>Recent content in Posts on Piper Williams | Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Jul 2023 14:21:21 -0700</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jul 2023 14:21:21 -0700</lastBuildDate><atom:link href="http://www.piperwilliams.work/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Create an SSL Certificate for IIS 10 Server</title>
-      <link>https://example.com/post/iisssl/</link>
+      <title>Create an SSL Certificate for IIS 10</title>
+      <link>http://www.piperwilliams.work/post/iisssl/</link>
       <pubDate>Fri, 28 Jul 2023 14:21:21 -0700</pubDate>
       
-      <guid>https://example.com/post/iisssl/</guid>
-      <description>Server Certificated in IIS Generate the .csr from IIS GUI Navigate to your site&amp;rsquo;s home and select on &amp;lsquo;Server Certificates&amp;rsquo; located under ISS In the far right Actions pane, select &amp;lsquo;Create Certificate Request&amp;rsquo; Fill out the Distinguished Name Properties form. This includes the following fields: Common name, Organization, Organizational unit, City/locality, State/province, and Country/region. Select Next Leave the Cryptographic service provider and Bit length as default, then select Next Save the .</description>
+      <guid>http://www.piperwilliams.work/post/iisssl/</guid>
+      <description>Create an SSL Certificate for IIS 10 Generate the .csr from IIS GUI Navigate to your site&amp;rsquo;s home and select on &amp;lsquo;Server Certificates&amp;rsquo; located under ISS In the far right Actions pane, select &amp;lsquo;Create Certificate Request&amp;rsquo; Fill out the Distinguished Name Properties form. This includes the following fields: Common name, Organization, Organizational unit, City/locality, State/province, and Country/region. Select Next Leave the Cryptographic service provider and Bit length as default, then select Next Save the .</description>
     </item>
     
     <item>
       <title>Azure Blob Storage &#43; .NET Client Library</title>
-      <link>https://example.com/post/azureblobstorage/</link>
+      <link>http://www.piperwilliams.work/post/azureblobstorage/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/azureblobstorage/</guid>
+      <guid>http://www.piperwilliams.work/post/azureblobstorage/</guid>
       <description>Azure offers Blob Storage as the cloud storage solution. Blob Storage is a way of storing substantial amounts of unstructured data: data that doesn&amp;rsquo;t adhere to a specific data model or definition- data that can&amp;rsquo;t go into rows and columns. For example, video, audio, image, log files, text files, etc. Azure Blob Storage has three types of resources to offer:
 The Storage Account Container(s) within the storage account Blob(s) within the Container Prerequisites Azure Subscription Azure Storage Account The current .</description>
     </item>
     
     <item>
       <title>Use a Windows VM system-assigned managed identity to access Azure Storage via a SAS credential</title>
-      <link>https://example.com/post/markdown-syntax/</link>
+      <link>http://www.piperwilliams.work/post/markdown-syntax/</link>
       <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/markdown-syntax/</guid>
+      <guid>http://www.piperwilliams.work/post/markdown-syntax/</guid>
       <description>Prerequisites Assigning TLS1.2 to Storage Account and VM
 Adding the VM to the firewall subnet inclusions
 Create a System Managed Identity and assign to VM
