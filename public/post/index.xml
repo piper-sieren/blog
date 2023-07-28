@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Piper Williams | Blog</title>
+    <link>https://example.com/post/</link>
+    <description>Recent content in Posts on Piper Williams | Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure Blob Storage &#43; .NET Client Library</title>
+      <link>https://example.com/post/azureblobstorage/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/azureblobstorage/</guid>
+      <description>Azure offers Blob Storage as the cloud storage solution. Blob Storage is a way of storing substantial amounts of unstructured data: data that doesn&amp;rsquo;t adhere to a specific data model or definition- data that can&amp;rsquo;t go into rows and columns. For example, video, audio, image, log files, text files, etc. Azure Blob Storage has three types of resources to offer:
+The Storage Account Container(s) within the storage account Blob(s) within the Container Prerequisites Azure Subscription Azure Storage Account The current .</description>
+    </item>
+    
+    <item>
+      <title>Use a Windows VM system-assigned managed identity to access Azure Storage via a SAS credential</title>
+      <link>https://example.com/post/markdown-syntax/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/markdown-syntax/</guid>
+      <description>Prerequisites Assigning TLS1.2 to Storage Account and VM
+Adding the VM to the firewall subnet inclusions
+Create a System Managed Identity and assign to VM
+Give that System Managed Identity RBAC over the storage account
+Azure PowerShell Modules Install-Module AzureRM Install-Module Azure -AllowClobber Install-Module Az -AllowClobber #AllowClobber flag removes the overlap between AzureRM, Az, and Azure PS Modules’ conflicting command names. PowerShell Script TLS1.2 can be set it the portal settings as well – following command must have Admin privs.</description>
+    </item>
+    
+  </channel>
+</rss>

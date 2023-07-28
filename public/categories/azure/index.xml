@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure on Piper Williams | Blog</title>
+    <link>https://example.com/categories/azure/</link>
+    <description>Recent content in Azure on Piper Williams | Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 10 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use a Windows VM system-assigned managed identity to access Azure Storage via a SAS credential</title>
+      <link>https://example.com/post/markdown-syntax/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/markdown-syntax/</guid>
+      <description>Prerequisites Assigning TLS1.2 to Storage Account and VM
+Adding the VM to the firewall subnet inclusions
+Create a System Managed Identity and assign to VM
+Give that System Managed Identity RBAC over the storage account
+Azure PowerShell Modules Install-Module AzureRM Install-Module Azure -AllowClobber Install-Module Az -AllowClobber #AllowClobber flag removes the overlap between AzureRM, Az, and Azure PS Modules’ conflicting command names. PowerShell Script TLS1.2 can be set it the portal settings as well – following command must have Admin privs.</description>
+    </item>
+    
+  </channel>
+</rss>
