@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>Piper Williams | Blog</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000084" />
+    <link rel="icon" href="https://example.com/favicon.ico">
+    <link rel="canonical" href="https://example.com">
+    
+    
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+            <a class="brand" href="https://example.com">Piper Williams | Blog</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    
+                    
+                        
+                            <li>
+                                <a href="/about/">
+                                    
+                                    <span>About</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/post/">
+                                    
+                                    <span>All posts</span>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav><div id="content" class="container">
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>Create an SSL Certificate for IIS 10 Server - Fri, Jul 28, 2023</h1>
+    </div>
+    <p class="lead">Create an SSL Certificate for IIS 10 Server</p>
+    <h2 id="server-certificated-in-iis">Server Certificated in IIS</h2>
+<h4 id="generate-the-csr-from-iis-gui">Generate the .csr from IIS GUI</h4>
+<ol>
+<li>Navigate to your site&rsquo;s home and select on &lsquo;Server Certificates&rsquo; located under <strong>ISS</strong></li>
+<li>In the far right <strong>Actions</strong> pane, select &lsquo;Create Certificate Request&rsquo;</li>
+<li>Fill out the <strong>Distinguished Name Properties</strong> form. This includes the following fields: Common name, Organization, Organizational unit, City/locality, State/province, and Country/region. Select Next</li>
+<li>Leave the <strong>Cryptographic service provider</strong> and <strong>Bit length</strong> as default, then select Next</li>
+<li>Save the .csr file to your local machine</li>
+</ol>
+<h4 id="export-the-file-in-format-pfx-using-mcc">Export the file in format .pfx using mcc</h4>
+<ol>
+<li>Go to <strong>Start</strong> -&gt; <strong>Run</strong> and type &lsquo;mmc&rsquo; to open the <strong>Microsoft Management Console</strong></li>
+<li>From the <strong>MMC</strong> menu bar and select <strong>File</strong> -&gt; <strong>Add/Remove Snap-in</strong></li>
+<li>Select the <strong>Add</strong> button and select <strong>Certificates</strong> from the list. Select <strong>Add</strong></li>
+<li>Slect the <strong>Computer</strong> Account. Click Next, Close, and Ok.</li>
+<li>Navigate to <strong>Certificate Enrollment Requests</strong> -&gt; <strong>Certificates</strong></li>
+<li>Right click your previously created certificate and select <strong>All Tasks</strong> -&gt; <strong>Export&hellip;</strong></li>
+<li>Choose <strong>Export with private key</strong> on the radio button options, select Next.</li>
+<li>In the <strong>certificate export wizard</strong> select <strong>Personal Information Exchange - PKCS #12 (.PFX)</strong></li>
+<li>Set a password, <strong>Browse</strong> to where you would like to save your export, and click Next, then Finished</li>
+</ol>
+<h4 id="convert-pfx-to-rsa-private-key-format">Convert .pfx to RSA private key format</h4>
+<ol>
+<li>Navigate to the downloaded location of the .pfx file using <strong>CMD</strong></li>
+<li>Type the following command to first convert the .pfx file to .pem
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>openssl pkcs12 -in filename.pfx -nocerts -out key.pem</span></span></code></pre></div></li>
+<li>Type the following command to convert the .pem file to .key
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>openssl rsa -in key.pem -out myserver.key</span></span></code></pre></div></li>
+</ol>
+<h4 id="upload-your-certificate-signing-request-and-private-key-to-your-preverd-certificate-authority-ca">Upload your Certificate Signing Request and Private Key to your preverd Certificate Authority (CA)</h4>
+<h4 id="download-response-from-ca">Download Response from CA</h4>
+<ol>
+<li>Download the .crt file generated as a response from the Certificate Authority (CA)</li>
+<li>Navigate to the file path inside your <strong>CMD</strong> and use the following to convert the files to a .pfx format
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>openssl pkcs12 -export-certpbe PBE-SHA1-3DES -keypbe PBE-SHA1-3DES -nomac -inkey myserver.key -in downloaded.crt -out example.com.pfx</span></span></code></pre></div></li>
+</ol>
+<h4 id="upload-to-iis">Upload to IIS</h4>
+<ol>
+<li>Navigate to your site&rsquo;s home and select on &lsquo;Server Certificates&rsquo; located under <strong>ISS</strong></li>
+<li>In the far right <strong>Actions</strong> pane, select &lsquo;Complete Certificate Signing Request&rsquo;</li>
+<li>Upload your created .pks file</li>
+</ol>
+<h4 id="site-bindings">Site Bindings</h4>
+<ol>
+<li>Navigate to your desired IIS Site and select <strong>Bindings</strong> in the far right <strong>Actions</strong> pane</li>
+<li>Select <strong>Add</strong></li>
+<li>Fill out <strong>Add site bindings</strong> with the following: https, All Unassigned, port 443, and choose your certificate from the dropdown menu. Select OK</li>
+</ol>
+
+    <h4><a href="https://example.com">Back to Home</a></h4>
+</div>
+
+
+        </div><footer class="container">
+    <hr class="soften">
+    <p>
+&copy; 
+
+    
+
+<span id="thisyear">2023</span>
+
+
+</p>
+    <p class="text-center">
+        
+        
+        <a href="https://www.linkedin.com/in/pswnr9/">Linkedin</a> 
+        <a href="https://github.com/piper-sieren">GitHub</a> 
+        
+    </p>
+</footer>
+
+</body><link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="/css/style.css">
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap-386.js"></script>
+<script src="/js/bootstrap-transition.js"></script>
+<script src="/js/bootstrap-alert.js"></script>
+<script src="/js/bootstrap-modal.js"></script>
+<script src="/js/bootstrap-dropdown.js"></script>
+<script src="/js/bootstrap-scrollspy.js"></script>
+<script src="/js/bootstrap-tab.js"></script>
+<script src="/js/bootstrap-tooltip.js"></script>
+<script src="/js/bootstrap-popover.js"></script>
+<script src="/js/bootstrap-button.js"></script>
+<script src="/js/bootstrap-collapse.js"></script>
+<script src="/js/bootstrap-carousel.js"></script>
+<script src="/js/bootstrap-typeahead.js"></script>
+<script src="/js/bootstrap-affix.js"></script>
+<script>
+    _386 = { 
+        fastLoad: false ,
+        onePass: false , 
+        speedFactor: 1 
+    };
+
+    
+    function ThisYear() {
+        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+    };
+</script>
+</html>

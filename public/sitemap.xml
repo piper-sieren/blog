@@ -2,11 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/</loc>
+    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/iisssl/</loc>
+    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/iis/</loc>
+    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/openssl/</loc>
+    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/ssl/</loc>
+    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/windows/</loc>
+    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/windows/</loc>
+    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+  </url><url>
     <loc>https://example.com/about/</loc>
     <lastmod>2023-07-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/.net/</loc>
     <lastmod>2021-02-21T00:00:00+00:00</lastmod>
@@ -20,16 +47,7 @@
     <loc>https://example.com/tags/blob-storage/</loc>
     <lastmod>2021-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/categories/azure/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/powershell/</loc>
