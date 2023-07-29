@@ -2,66 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.piperwilliams.work/</loc>
-    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
-  </url><url>
     <loc>http://www.piperwilliams.work/categories/</loc>
-    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+    <lastmod>2023-07-29T00:31:48-07:00</lastmod>
   </url><url>
-    <loc>http://www.piperwilliams.work/post/iisssl/</loc>
-    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+    <loc>http://www.piperwilliams.work/posts/iisssl/</loc>
+    <lastmod>2023-07-28T15:03:19-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/categories/iis/</loc>
-    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+    <lastmod>2023-07-28T15:03:19-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/tags/openssl/</loc>
-    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
-  </url><url>
-    <loc>http://www.piperwilliams.work/post/</loc>
-    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+    <lastmod>2023-07-28T15:03:19-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/tags/ssl/</loc>
-    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+    <lastmod>2023-07-28T15:03:19-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/tags/</loc>
-    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+    <lastmod>2023-07-29T00:31:48-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/tags/windows/</loc>
-    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+    <lastmod>2023-07-28T15:03:19-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/categories/windows/</loc>
-    <lastmod>2023-07-28T14:21:21-07:00</lastmod>
+    <lastmod>2023-07-28T15:03:19-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/about/</loc>
-    <lastmod>2023-07-23T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-29T00:27:49-07:00</lastmod>
+  </url><url>
+    <loc>http://www.piperwilliams.work/about/</loc>
+    <lastmod>2023-07-29T00:29:31-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/tags/.net/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-28T14:14:17-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/tags/azure/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-29T00:31:48-07:00</lastmod>
   </url><url>
-    <loc>http://www.piperwilliams.work/post/azureblobstorage/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+    <loc>http://www.piperwilliams.work/posts/azureblobstorage/</loc>
+    <lastmod>2023-07-28T14:14:17-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/tags/blob-storage/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-28T14:14:17-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/categories/azure/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-29T00:31:48-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/tags/powershell/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-29T00:31:48-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/categories/powershell/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-29T00:31:48-07:00</lastmod>
   </url><url>
-    <loc>http://www.piperwilliams.work/post/markdown-syntax/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
+    <loc>http://www.piperwilliams.work/posts/azurepowershell/</loc>
+    <lastmod>2023-07-29T00:31:48-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-28T14:14:17-07:00</lastmod>
+  </url><url>
+    <loc>http://www.piperwilliams.work/</loc>
+    <lastmod>2023-07-28T14:14:17-07:00</lastmod>
   </url><url>
     <loc>http://www.piperwilliams.work/tags/index/</loc>
+    <lastmod>2023-07-28T14:14:17-07:00</lastmod>
+  </url><url>
+    <loc>http://www.piperwilliams.work/posts/</loc>
+    <lastmod>2023-07-28T14:14:17-07:00</lastmod>
   </url>
 </urlset>

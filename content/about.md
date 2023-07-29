@@ -1,5 +1,5 @@
 +++
-title = "About Me"
+title = "About"
 description = "Piper Williams | Security Engineer"
 date = "2023-07-23"
 aliases = ["about"]
@@ -9,6 +9,7 @@ author = "Piper Williams"
 
 <title>Piper Williams</title>
 
+{{< figure src="/img/logo.png" width="500" >}}
 Lead Threat & Vulnerability Analyst and Cyber Security Application tester. Previous Cloud Security Engineer. Software Development is my passion. Graphic Designing is my hobby. Welcome to my blog, my very own digital project diary with unique and engaging content. Explore my site and all that I have to offer; perhaps it will ignite your own passions as well.
 
 

@@ -47,7 +47,7 @@ series = ["Azure"]
   [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 {{</highlight>}}
 
-#### The purpose of these self-assigned link-local addresses is to facilitate communication with other hosts within the subnet even in the absence of external address configuration (via manual input or DHCP). Unlike in IPv6, implementation of IPv4 link-local addresses is recommended only in the absence of a normal, routable address.
+**The purpose of these self-assigned link-local addresses is to facilitate communication with other hosts within the subnet even in the absence of external address configuration (via manual input or DHCP). Unlike in IPv6, implementation of IPv4 link-local addresses is recommended only in the absence of a normal, routable address.**
 {{<highlight html>}}
 $response = Invoke-WebRequest -Uri 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https%3A%2F%2Fmanagement.azure.com%2F' -Method GET -Headers @{Metadata="true"}
 
@@ -82,7 +82,9 @@ Set-AzStorageBlobContent -File test.txt -Container <container name> -Blob <blob 
 ## Terminology
  
 **SAS Credential:** A Service SAS provides the ability to grant limited access to objects in a storage account, for limited time and a specific service (in our case, the blob service), without exposing an account access key.
+
 **PowerShell Module:** A module is a package that contains PowerShell members, such as cmdlets, providers, functions, workflows, variables, and aliases. The members of this package can be implemented in a PowerShell script, a compiled DLL, or a combination of both. These files are usually grouped together in a single directory.
+
 **Managed Identities:** On Azure, managed identities eliminate the need for developers having to manage credentials by providing an identity for the Azure resource in Azure AD and using it to obtain Azure Active Directory (Azure AD) tokens. This also helps accessing Azure Key Vault where developers can store credentials in a secure manner. Managed identities for Azure resources solve this problem by providing Azure services with an automatically managed identity in Azure AD.
 #### TLS1.2: Why use TLS 1.2 with Configuration Manager?
 
