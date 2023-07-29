@@ -4,13 +4,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Piper Williams | Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2023-07-29T01:21:56-07:00</updated>
-    <id>http://www.piperwilliams.work/</id>
-    <link rel="alternate" type="text/html" href="http://www.piperwilliams.work/" />
-    <link rel="self" type="application/atom&#43;xml" href="http://www.piperwilliams.work/atom.xml" />
+    <updated>2023-07-29T01:26:52-07:00</updated>
+    <id>http://piperwilliams.work/</id>
+    <link rel="alternate" type="text/html" href="http://piperwilliams.work/" />
+    <link rel="self" type="application/atom&#43;xml" href="http://piperwilliams.work/atom.xml" />
     <author>
             <name>Piper Williams</name>
-            <uri>http://www.piperwilliams.work</uri>
+            <uri>http://piperwilliams.work</uri>
             
                 <email>pswnr9@gmail.com</email>
             </author>
@@ -18,13 +18,13 @@
     <generator uri="https://gohugo.io/" version="0.111.3">Hugo</generator>
         <entry>
             <title type="text">Create an SSL Certificate for IIS 10</title>
-            <link rel="alternate" type="text/html" href="http://www.piperwilliams.work/posts/iisssl/" />
-            <id>http://www.piperwilliams.work/posts/iisssl/</id>
+            <link rel="alternate" type="text/html" href="http://piperwilliams.work/posts/iisssl/" />
+            <id>http://piperwilliams.work/posts/iisssl/</id>
             <updated>2023-07-28T15:03:19-07:00</updated>
             <published>2023-07-28T14:21:21-07:00</published>
             <author>
                     <name>Piper Williams</name>
-                    <uri>https://www.piperwilliams.work</uri>
+                    <uri>https://piperwilliams.work</uri>
                     <email>pswnr9@gmail.com</email>
                     </author>
             <summary type="html">Create an SSL Certificate for IIS 10</summary>
@@ -110,13 +110,13 @@
                             
                             
                             
-                                <category scheme="http://www.piperwilliams.work/categories/windows/" term="Windows" label="Windows" />
+                                <category scheme="http://piperwilliams.work/categories/windows/" term="Windows" label="Windows" />
                             
                         
                             
                             
                             
-                                <category scheme="http://www.piperwilliams.work/categories/iis/" term="IIS" label="IIS" />
+                                <category scheme="http://piperwilliams.work/categories/iis/" term="IIS" label="IIS" />
                             
                         
                     
@@ -126,19 +126,19 @@
                             
                             
                             
-                                <category scheme="http://www.piperwilliams.work/tags/windows/" term="Windows" label="Windows" />
+                                <category scheme="http://piperwilliams.work/tags/windows/" term="Windows" label="Windows" />
                             
                         
                             
                             
                             
-                                <category scheme="http://www.piperwilliams.work/tags/ssl/" term="SSL" label="SSL" />
+                                <category scheme="http://piperwilliams.work/tags/ssl/" term="SSL" label="SSL" />
                             
                         
                             
                             
                             
-                                <category scheme="http://www.piperwilliams.work/tags/openssl/" term="OpenSSL" label="OpenSSL" />
+                                <category scheme="http://piperwilliams.work/tags/openssl/" term="OpenSSL" label="OpenSSL" />
                             
                         
                     
@@ -148,13 +148,13 @@
     
         <entry>
             <title type="text">Azure Blob Storage &#43; .NET Client Library</title>
-            <link rel="alternate" type="text/html" href="http://www.piperwilliams.work/posts/azureblobstorage/" />
-            <id>http://www.piperwilliams.work/posts/azureblobstorage/</id>
+            <link rel="alternate" type="text/html" href="http://piperwilliams.work/posts/azureblobstorage/" />
+            <id>http://piperwilliams.work/posts/azureblobstorage/</id>
             <updated>2023-07-28T14:14:17-07:00</updated>
             <published>2021-02-21T00:00:00&#43;00:00</published>
             <author>
                     <name>Piper Williams</name>
-                    <uri>https://www.piperwilliams.work</uri>
+                    <uri>https://piperwilliams.work</uri>
                     <email>pswnr9@gmail.com</email>
                     </author>
             <summary type="html">Azure Blob Storage + .NET Client Library</summary>
@@ -435,19 +435,19 @@
                             
                             
                             
-                                <category scheme="http://www.piperwilliams.work/tags/.net/" term=".Net" label=".Net" />
+                                <category scheme="http://piperwilliams.work/tags/.net/" term=".Net" label=".Net" />
                             
                         
                             
                             
                             
-                                <category scheme="http://www.piperwilliams.work/tags/azure/" term="Azure" label="Azure" />
+                                <category scheme="http://piperwilliams.work/tags/azure/" term="Azure" label="Azure" />
                             
                         
                             
                             
                             
-                                <category scheme="http://www.piperwilliams.work/tags/blob-storage/" term="Blob Storage" label="Blob Storage" />
+                                <category scheme="http://piperwilliams.work/tags/blob-storage/" term="Blob Storage" label="Blob Storage" />
                             
                         
                     
@@ -457,13 +457,13 @@
     
         <entry>
             <title type="text">Use a Windows VM system-assigned managed identity to access Azure Storage via a SAS credential</title>
-            <link rel="alternate" type="text/html" href="http://www.piperwilliams.work/posts/azurepowershell/" />
-            <id>http://www.piperwilliams.work/posts/azurepowershell/</id>
+            <link rel="alternate" type="text/html" href="http://piperwilliams.work/posts/azurepowershell/" />
+            <id>http://piperwilliams.work/posts/azurepowershell/</id>
             <updated>2023-07-29T00:31:48-07:00</updated>
             <published>2021-02-10T00:00:00&#43;00:00</published>
             <author>
                     <name>Piper Williams</name>
-                    <uri>https://www.piperwilliams.work</uri>
+                    <uri>https://piperwilliams.work</uri>
                     <email>pswnr9@gmail.com</email>
                     </author>
             <summary type="html">Use a Windows VM system-assigned managed identity to access Azure Storage via a SAS credential</summary>
@@ -601,13 +601,13 @@
                             
                             
                             
-                                <category scheme="http://www.piperwilliams.work/categories/azure/" term="Azure" label="Azure" />
+                                <category scheme="http://piperwilliams.work/categories/azure/" term="Azure" label="Azure" />
                             
                         
                             
                             
                             
-                                <category scheme="http://www.piperwilliams.work/categories/powershell/" term="PowerShell" label="PowerShell" />
+                                <category scheme="http://piperwilliams.work/categories/powershell/" term="PowerShell" label="PowerShell" />
                             
                         
                     
@@ -617,13 +617,13 @@
                             
                             
                             
-                                <category scheme="http://www.piperwilliams.work/tags/powershell/" term="PowerShell" label="PowerShell" />
+                                <category scheme="http://piperwilliams.work/tags/powershell/" term="PowerShell" label="PowerShell" />
                             
                         
                             
                             
                             
-                                <category scheme="http://www.piperwilliams.work/tags/azure/" term="Azure" label="Azure" />
+                                <category scheme="http://piperwilliams.work/tags/azure/" term="Azure" label="Azure" />
                             
                         
                     

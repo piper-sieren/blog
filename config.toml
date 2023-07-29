@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 
-baseURL = "http://www.piperwilliams.work"
+baseURL = "http://piperwilliams.work"
 title = "Piper Williams | Blog"
 languageCode = "en"
 hasCJKLanguage = false
@@ -103,7 +103,7 @@ uglyURLs = false
     # Avatar
     avatar = "/img/logo.png"
     # Personal website, default: baseURL
-    website = "https://www.piperwilliams.work"
+    website = "https://piperwilliams.work"
     # Twitter
     twitter = "piperchilliams"
 
