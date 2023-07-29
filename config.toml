@@ -230,7 +230,6 @@ uglyURLs = false
         weight = 5
         pre = "internal"
         post = "user-circle"
-        identifier = "about" # An unique identifier for the button
     
     [[menu.main]]
         weight = 6
