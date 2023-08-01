@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://piperwilliams.work/categories/</loc>
-    <lastmod>2023-07-29T00:31:48-07:00</lastmod>
-  </url><url>
     <loc>http://piperwilliams.work/posts/iisssl/</loc>
     <lastmod>2023-07-28T15:03:19-07:00</lastmod>
   </url><url>
@@ -29,8 +26,8 @@
     <loc>http://piperwilliams.work/about/</loc>
     <lastmod>2023-07-29T01:21:27-07:00</lastmod>
   </url><url>
-    <loc>http://piperwilliams.work/catagories/</loc>
-    <lastmod>2023-07-29T01:19:50-07:00</lastmod>
+    <loc>http://piperwilliams.work/categories/</loc>
+    <lastmod>2023-07-29T01:29:56-07:00</lastmod>
   </url><url>
     <loc>http://piperwilliams.work/tags/</loc>
     <lastmod>2023-07-29T01:21:05-07:00</lastmod>
