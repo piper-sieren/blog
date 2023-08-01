@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://piperwilliams.work"
+baseURL = "/"
 title = "Piper Williams | Blog"
 languageCode = "en"
 hasCJKLanguage = false
@@ -230,6 +230,7 @@ uglyURLs = false
         weight = 5
         pre = "internal"
         post = "user-circle"
+        url="/about/"
     
     [[menu.main]]
         weight = 6

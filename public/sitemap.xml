@@ -2,70 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://piperwilliams.work/posts/iisssl/</loc>
+    <loc>/posts/iisssl/</loc>
     <lastmod>2023-07-28T15:03:19-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/categories/iis/</loc>
+    <loc>/categories/iis/</loc>
     <lastmod>2023-07-28T15:03:19-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/tags/openssl/</loc>
+    <loc>/tags/openssl/</loc>
     <lastmod>2023-07-28T15:03:19-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/tags/ssl/</loc>
+    <loc>/tags/ssl/</loc>
     <lastmod>2023-07-28T15:03:19-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/tags/windows/</loc>
+    <loc>/tags/windows/</loc>
     <lastmod>2023-07-28T15:03:19-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/categories/windows/</loc>
+    <loc>/categories/windows/</loc>
     <lastmod>2023-07-28T15:03:19-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2023-07-29T01:02:49-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2023-07-29T01:21:27-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2023-07-29T01:29:56-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2023-07-29T01:21:05-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/tags/.net/</loc>
+    <loc>/tags/.net/</loc>
     <lastmod>2023-07-28T14:14:17-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/tags/azure/</loc>
+    <loc>/tags/azure/</loc>
     <lastmod>2023-07-29T00:31:48-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/posts/azureblobstorage/</loc>
+    <loc>/posts/azureblobstorage/</loc>
     <lastmod>2023-07-28T14:14:17-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/tags/blob-storage/</loc>
+    <loc>/tags/blob-storage/</loc>
     <lastmod>2023-07-28T14:14:17-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/categories/azure/</loc>
+    <loc>/categories/azure/</loc>
     <lastmod>2023-07-29T00:31:48-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/tags/powershell/</loc>
+    <loc>/tags/powershell/</loc>
     <lastmod>2023-07-29T00:31:48-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/categories/powershell/</loc>
+    <loc>/categories/powershell/</loc>
     <lastmod>2023-07-29T00:31:48-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/posts/azurepowershell/</loc>
+    <loc>/posts/azurepowershell/</loc>
     <lastmod>2023-07-29T00:31:48-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/archives/</loc>
+    <loc>/archives/</loc>
     <lastmod>2023-07-28T14:14:17-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/</loc>
+    <loc>/</loc>
     <lastmod>2023-07-28T14:14:17-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/tags/index/</loc>
+    <loc>/tags/index/</loc>
     <lastmod>2023-07-29T01:20:33-07:00</lastmod>
   </url><url>
-    <loc>https://piperwilliams.work/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2023-07-29T01:20:33-07:00</lastmod>
   </url>
 </urlset>
