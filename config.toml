@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 
-baseURL = "http://piperwilliams.work"
+baseURL = "/"
 title = "Piper Williams | Blog"
 languageCode = "en"
 hasCJKLanguage = false
