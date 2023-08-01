@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://piperwilliams.work/"
+baseURL = "https://piperwilliams.work"
 title = "Piper Williams | Blog"
 languageCode = "en"
 hasCJKLanguage = false
