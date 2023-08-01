@@ -8,7 +8,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Piper Williams | Blog</title>
-        <link>/</link>
+        <link>https://piperwilliams.work/</link>
         <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
         <generator>Hugo 0.111.3 https://gohugo.io/</generator>
         
@@ -21,15 +21,15 @@
             <webMaster>pswnr9@gmail.com (Piper Williams)</webMaster>
         
         
-        <lastBuildDate>Mon, 31 Jul 2023 22:33:48 -0700</lastBuildDate>
+        <lastBuildDate>Mon, 31 Jul 2023 22:37:48 -0700</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://piperwilliams.work/rss.xml" />
         
         
             <item>
                 <title>Create an SSL Certificate for IIS 10</title>
-                <link>/posts/iisssl/</link>
-                <guid isPermaLink="true">/posts/iisssl/</guid>
+                <link>https://piperwilliams.work/posts/iisssl/</link>
+                <guid isPermaLink="true">https://piperwilliams.work/posts/iisssl/</guid>
                 <pubDate>Fri, 28 Jul 2023 14:21:21 -0700</pubDate>
                 
                     <author>pswnr9@gmail.com (Piper Williams)</author>
@@ -117,13 +117,13 @@
                                 
                                 
                                 
-                                    <category domain="/categories/windows/">Windows</category>
+                                    <category domain="https://piperwilliams.work/categories/windows/">Windows</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="/categories/iis/">IIS</category>
+                                    <category domain="https://piperwilliams.work/categories/iis/">IIS</category>
                                 
                             
                         
@@ -133,19 +133,19 @@
                                 
                                 
                                 
-                                    <category domain="/tags/windows/">Windows</category>
+                                    <category domain="https://piperwilliams.work/tags/windows/">Windows</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="/tags/ssl/">SSL</category>
+                                    <category domain="https://piperwilliams.work/tags/ssl/">SSL</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="/tags/openssl/">OpenSSL</category>
+                                    <category domain="https://piperwilliams.work/tags/openssl/">OpenSSL</category>
                                 
                             
                         
@@ -155,8 +155,8 @@
         
             <item>
                 <title>Azure Blob Storage &#43; .NET Client Library</title>
-                <link>/posts/azureblobstorage/</link>
-                <guid isPermaLink="true">/posts/azureblobstorage/</guid>
+                <link>https://piperwilliams.work/posts/azureblobstorage/</link>
+                <guid isPermaLink="true">https://piperwilliams.work/posts/azureblobstorage/</guid>
                 <pubDate>Sun, 21 Feb 2021 00:00:00 &#43;0000</pubDate>
                 
                     <author>pswnr9@gmail.com (Piper Williams)</author>
@@ -439,19 +439,19 @@
                                 
                                 
                                 
-                                    <category domain="/tags/.net/">.Net</category>
+                                    <category domain="https://piperwilliams.work/tags/.net/">.Net</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="/tags/azure/">Azure</category>
+                                    <category domain="https://piperwilliams.work/tags/azure/">Azure</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="/tags/blob-storage/">Blob Storage</category>
+                                    <category domain="https://piperwilliams.work/tags/blob-storage/">Blob Storage</category>
                                 
                             
                         
@@ -461,8 +461,8 @@
         
             <item>
                 <title>Use a Windows VM system-assigned managed identity to access Azure Storage via a SAS credential</title>
-                <link>/posts/azurepowershell/</link>
-                <guid isPermaLink="true">/posts/azurepowershell/</guid>
+                <link>https://piperwilliams.work/posts/azurepowershell/</link>
+                <guid isPermaLink="true">https://piperwilliams.work/posts/azurepowershell/</guid>
                 <pubDate>Wed, 10 Feb 2021 00:00:00 &#43;0000</pubDate>
                 
                     <author>pswnr9@gmail.com (Piper Williams)</author>
@@ -602,13 +602,13 @@
                                 
                                 
                                 
-                                    <category domain="/categories/azure/">Azure</category>
+                                    <category domain="https://piperwilliams.work/categories/azure/">Azure</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="/categories/powershell/">PowerShell</category>
+                                    <category domain="https://piperwilliams.work/categories/powershell/">PowerShell</category>
                                 
                             
                         
@@ -618,13 +618,13 @@
                                 
                                 
                                 
-                                    <category domain="/tags/powershell/">PowerShell</category>
+                                    <category domain="https://piperwilliams.work/tags/powershell/">PowerShell</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="/tags/azure/">Azure</category>
+                                    <category domain="https://piperwilliams.work/tags/azure/">Azure</category>
                                 
                             
                         
