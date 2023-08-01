@@ -6,7 +6,7 @@ title = "Piper Williams | Blog"
 languageCode = "en"
 hasCJKLanguage = false
 # Name of theme
-theme = "hugo.386"
+theme = "meme"
 
 # `hugo new` automatically opened text editor
 newContentEditor = ""
