@@ -12,6 +12,7 @@ categories = [
     "PowerShell",
 ]
 series = ["Azure"]
+draft = false
 +++
 
 ## Prerequisites

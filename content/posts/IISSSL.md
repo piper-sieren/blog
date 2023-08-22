@@ -13,6 +13,7 @@ categories = [
     "IIS",
 ]
 series = ["Windows IIS"]
+draft = false
 +++
 
 ## Create an SSL Certificate for IIS 10 

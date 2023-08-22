@@ -9,6 +9,7 @@ tags = [
     "Blob Storage"
 ]
 series = ["Azure"]
+draft = false
 +++
 
 Azure offers Blob Storage as the cloud storage solution. Blob Storage is a way of storing substantial amounts of unstructured data: data that doesn't adhere to a specific data model or definition- data that can't go into rows and columns. For example, video, audio, image, log files, text files, etc. Azure Blob Storage has three types of resources to offer: 

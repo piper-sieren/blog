@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Piper Williams | Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2023-07-31T22:37:48-07:00</updated>
+    <updated>2023-08-21T21:32:42-07:00</updated>
     <id>https://piperwilliams.work/</id>
     <link rel="alternate" type="text/html" href="https://piperwilliams.work/" />
     <link rel="self" type="application/atom&#43;xml" href="https://piperwilliams.work/atom.xml" />
@@ -17,10 +17,387 @@
     
     <generator uri="https://gohugo.io/" version="0.111.3">Hugo</generator>
         <entry>
+            <title type="text">PythonCheatSheet</title>
+            <link rel="alternate" type="text/html" href="https://piperwilliams.work/posts/pythoncheatsheet/" />
+            <id>https://piperwilliams.work/posts/pythoncheatsheet/</id>
+            <updated>2023-08-21T21:32:35-07:00</updated>
+            <published>2023-08-21T20:07:55-07:00</published>
+            <author>
+                    <name>Piper Williams</name>
+                    <uri>https://piperwilliams.work</uri>
+                    <email>pswnr9@gmail.com</email>
+                    </author>
+            <summary type="html">Python 3 Cheat Sheet Base Types int
+783 0 -192
+# binary 0b010
+# octal 0o642
+# hexa 0xF3 float 9.23 0.0 -1.7e-6 bool True False str &amp;quot;One Two&amp;quot; # New Line \n
+# Escaped Tab \t # Multiline string &amp;quot;&amp;quot;&amp;quot;X Y Z</summary>
+            
+                <content type="html">&lt;h1 id=&#34;python-3-cheat-sheet&#34;&gt;Python 3 Cheat Sheet&lt;/h1&gt;
+&lt;h5 id=&#34;base-types&#34;&gt;Base Types&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;int&lt;br&gt;
+&lt;code&gt;783 0 -192&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;# binary 0b010&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;# octal 0o642&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;# hexa 0xF3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;float &lt;br&gt;
+&lt;code&gt;9.23 0.0 -1.7e-6&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;bool &lt;br&gt;
+&lt;code&gt;True&lt;/code&gt;
+&lt;code&gt;False&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;str &lt;br&gt;
+&lt;code&gt;&amp;quot;One Two&amp;quot; &lt;/code&gt; &lt;br&gt;
+&lt;code&gt;# New Line \n&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;# Escaped Tab \t&lt;/code&gt; &lt;br&gt;
+&lt;code&gt;# Multiline string &amp;quot;&amp;quot;&amp;quot;X Y Z&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;1 2 3&amp;quot;&amp;quot;&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;bytes &lt;br&gt;
+&lt;code&gt;b&amp;quot;toto\xfe\755&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;container-types&#34;&gt;Container Types&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Ordered Sequences&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;list&lt;/strong&gt; &lt;br&gt;
+&lt;code&gt;[1,2,9] [&amp;quot;x&amp;quot;,11,8.9] [&amp;quot;mot&amp;quot;]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tuple&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;non modifiable values (immutables)&lt;/em&gt; &lt;br&gt;
+&lt;code&gt;(1,5,9) 11,&amp;quot;y&amp;quot;,7.4  (&amp;quot;mot&amp;quot;,)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;str bytes&lt;/strong&gt;
+&lt;em&gt;ordered sequences of chars / bytes&lt;/em&gt; &lt;br&gt;
+&lt;code&gt;b&amp;quot;toto&amp;quot;&lt;/code&gt; \&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;heading&#34;&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Key Containers&lt;/strong&gt;
+&lt;em&gt;key containers, no a priori order, fast key access, each key is unique&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;dictionary&lt;/strong&gt; &lt;em&gt;key value associations&lt;/em&gt; &lt;br&gt;
+&lt;code&gt;dict{&amp;quot;key&amp;quot;:&amp;quot;value&amp;quot;} dict{a=3,b=4,k=&amp;quot;v&amp;quot;}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;collection&lt;/strong&gt; &lt;em&gt;keys=hashable values (base types, immutables&amp;hellip;)&lt;/em&gt; &lt;br&gt;
+&lt;code&gt;set {&amp;quot;key1&amp;quot;,&amp;quot;key2&amp;quot;} {1,9,3,0}&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;identifiers&#34;&gt;Identifiers&lt;/h5&gt;
+&lt;p&gt;&lt;em&gt;For variables, function, modules, classes, names, etc&amp;hellip;&lt;/em&gt; &lt;br&gt;
+&lt;code&gt;a..zA..Z_&lt;/code&gt; followed by &lt;code&gt;a..zA..Z_0...9&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Diacritics allowed but should be avoided&lt;/li&gt;
+&lt;li&gt;Language keywords forbidden&lt;/li&gt;
+&lt;li&gt;lower/UPPER case discrimination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;conversions&#34;&gt;Conversions&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;int(&amp;quot;15&amp;quot;)&lt;/code&gt; → &lt;code&gt;15&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;int(&amp;quot;3f&amp;quot;,16)&lt;/code&gt; → &lt;code&gt;63&lt;/code&gt; &lt;em&gt;can specify integer number base in 2nd parameter&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;int(15.56)&lt;/code&gt; → &lt;code&gt;15&lt;/code&gt; &lt;em&gt;truncate decimal&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;float(&amp;quot;-11.24e8&amp;quot;)&lt;/code&gt; → &lt;code&gt;-1124000000.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;round(15.56,1)&lt;/code&gt; → &lt;code&gt;15.6&lt;/code&gt; &lt;em&gt;rounding to 1 decimal (0 decimal →  integer number)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bool(x)&lt;/code&gt; &lt;em&gt;&lt;strong&gt;False&lt;/strong&gt; for null &lt;strong&gt;x&lt;/strong&gt;, empty container &lt;strong&gt;x&lt;/strong&gt;, &lt;strong&gt;None&lt;/strong&gt; or &lt;strong&gt;False x;True&lt;/strong&gt; for other &lt;strong&gt;x&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;str(x)&lt;/code&gt; → &lt;code&gt;&amp;quot;...&amp;quot;&lt;/code&gt; &lt;em&gt;representation string of &lt;strong&gt;x&lt;/strong&gt; for display&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chr(64))&lt;/code&gt; → &lt;code&gt;@&lt;/code&gt;  &lt;em&gt;code &amp;lt;-&amp;gt; char&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;repr(x)&lt;/code&gt; → &lt;code&gt;&amp;quot;...&amp;quot;&lt;/code&gt; &lt;em&gt;literal representation string of &lt;strong&gt;x&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bytes([72,9,64])&lt;/code&gt; → &lt;code&gt;b&#39;H\t@&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;list(&amp;quot;abc&amp;quot;)&lt;/code&gt; → &lt;code&gt;[&#39;a&#39;,&#39;b&#39;,&#39;c&#39;]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dict([(3,&amp;quot;three&amp;quot;),(1,&amp;quot;one&amp;quot;)])&lt;/code&gt; → &lt;code&gt;{1:&#39;one&#39;,3:&#39;three&#39;}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;set([&amp;quot;one&amp;quot;,&amp;quot;two&amp;quot;])&lt;/code&gt; → &lt;code&gt;f{&#39;one&#39;,&#39;two&#39;}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;separator &lt;strong&gt;str&lt;/strong&gt; and sequence of &lt;strong&gt;str&lt;/strong&gt; → assembled &lt;strong&gt;str&lt;/strong&gt;&lt;/em&gt; &lt;code&gt;&#39;:&#39;.join([&#39;toto&#39;,&#39;12&#39;,&#39;pswd&#39;])&lt;/code&gt; → &lt;code&gt;&#39;toto:12:pswd&#39;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;str&lt;/strong&gt; splitted on whitespaces → &lt;strong&gt;list&lt;/strong&gt; of &lt;strong&gt;str&lt;/strong&gt;&lt;/em&gt;
+&lt;code&gt;&amp;quot;words with spaces&amp;quot;.split()&lt;/code&gt; → &lt;code&gt;[&#39;words&#39;,&#39;with&#39;,&#39;spaces&#39;]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;str&lt;/strong&gt; splitted on separator &lt;strong&gt;str&lt;/strong&gt; → &lt;strong&gt;list&lt;/strong&gt; of &lt;strong&gt;str&lt;/strong&gt;&lt;/em&gt;
+&lt;code&gt;&amp;quot;1,4,8,2&amp;quot;.split(&amp;quot;,&amp;quot;)&lt;/code&gt; → &lt;code&gt;[&#39;1&#39;,&#39;4&#39;,&#39;8&#39;,&#39;2&#39;]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;sequence of one type → &lt;strong&gt;list&lt;/strong&gt; of another type (via list comprehension)&lt;/em&gt;
+&lt;code&gt;[int(x) for x in (&#39;1&#39;,&#39;29&#39;,&#39;-3&#39;)]&lt;/code&gt; → &lt;code&gt;[1,29,-3]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;variables-assignment&#34;&gt;Variables Assignment&lt;/h5&gt;
+&lt;p&gt;&lt;em&gt;assignment ⇔ binding of a name with a value&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;evaluation of right side expression value&lt;/li&gt;
+&lt;li&gt;assignment in order with left side names&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;x=1.2+8+sin(y)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;a=b=c=0&lt;/code&gt; &lt;em&gt;assignment to same value&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;y, z, r=9.2,-7.6,0 &lt;/code&gt;&lt;em&gt;multiple assignments&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;a, b=b, a&lt;/code&gt; &lt;em&gt;values swap&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;a, *b=seq&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;*a, b=seq&lt;/code&gt; &lt;em&gt;unpacking of sequences in item and list&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;x=None&lt;/code&gt; &lt;em&gt;« undefined » constant value&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;del x&lt;/code&gt; &lt;em&gt;remove name &lt;strong&gt;x&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;x+=3&lt;/code&gt; &lt;em&gt;increment ⇔ x=x+3&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;x-=2&lt;/code&gt; &lt;em&gt;decrease ⇔ x=x-3&lt;/em&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Operator&lt;/th&gt;
+&lt;th&gt;Example&lt;/th&gt;
+&lt;th&gt;Same As&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;+=&lt;/td&gt;
+&lt;td&gt;x+=3&lt;/td&gt;
+&lt;td&gt;x=x+3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-=&lt;/td&gt;
+&lt;td&gt;x-=2&lt;/td&gt;
+&lt;td&gt;x=x-2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;*=&lt;/td&gt;
+&lt;td&gt;x*=3&lt;/td&gt;
+&lt;td&gt;x=x*3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/=&lt;/td&gt;
+&lt;td&gt;x/=3&lt;/td&gt;
+&lt;td&gt;x=x/3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%=&lt;/td&gt;
+&lt;td&gt;x%=3&lt;/td&gt;
+&lt;td&gt;x=x%3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;sequence-containers-indexing&#34;&gt;Sequence Containers Indexing&lt;/h5&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Negative Index&lt;/th&gt;
+&lt;th&gt;Positive Index&lt;/th&gt;
+&lt;th&gt;Positive Slice&lt;/th&gt;
+&lt;th&gt;Negative Slice&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;-5&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;-5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-4&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;-4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-3&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;-3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-2&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;-2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-1&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;-1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;lst = [10, 20, 30, 40, 50]&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Length Count:  &lt;strong&gt;len(lst)→5&lt;/strong&gt; index from 0 (here from 0 to 4)&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;Individual access to &lt;strong&gt;items&lt;/strong&gt; via &lt;code&gt;lst[index]&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;lst[0]→10&lt;/code&gt; &lt;em&gt;first item&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lst[-1]→50&lt;/code&gt; &lt;em&gt;last item&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lst[1]→20&lt;/code&gt; &lt;em&gt;second item&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lst[-2]→40&lt;/code&gt; &lt;em&gt;second to last item&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Access to &lt;strong&gt;sub-sequences&lt;/strong&gt; via lst&lt;/em&gt;
+&lt;code&gt;[start slice: end slice: step]&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;lst[:-1]→[10,20,30,40]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lst[1:-1]→[20,30,40]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lst[::2]→[10,30,50]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lst[::-1]→[50,40,30,20,10]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lst[::-2]→[50,30,10]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lst[:]→[10,20,30,40,50]&lt;/code&gt; &lt;em&gt;shallow copy of sequence&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lst[1:3]→[20,30]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lst[-3:-1]→[30,40]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lst[:3]→[10,20,30]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lst[3:]→[40,50]&lt;/code&gt;&lt;br&gt;
+&lt;em&gt;Missing slice indication → from start / up to end.&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;On mutable sequences (&lt;strong&gt;list&lt;/strong&gt;), remove with &lt;strong&gt;del&lt;/strong&gt; &lt;code&gt;lst[3:5]&lt;/code&gt; and modify with assignment &lt;code&gt;lst[1:4]=[15,25]&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;boolean-logic&#34;&gt;Boolean Logic&lt;/h5&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Comparisons&lt;/th&gt;
+&lt;th&gt;Operator&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Less Than&lt;/td&gt;
+&lt;td&gt;&amp;lt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Greater Than&lt;/td&gt;
+&lt;td&gt;&amp;gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Less Than or Equal to&lt;/td&gt;
+&lt;td&gt;&amp;lt;=, ≤&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Greater Than or Equal To&lt;/td&gt;
+&lt;td&gt;&amp;gt;=, ≥&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Equal&lt;/td&gt;
+&lt;td&gt;==&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Not Equal&lt;/td&gt;
+&lt;td&gt;!=, ≠&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Assigning&lt;/td&gt;
+&lt;td&gt;=&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AND&lt;/td&gt;
+&lt;td&gt;and&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;OR&lt;/td&gt;
+&lt;td&gt;or&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Logical Not&lt;/td&gt;
+&lt;td&gt;not a&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;True&lt;/td&gt;
+&lt;td&gt;True&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;False&lt;/td&gt;
+&lt;td&gt;False&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h5 id=&#34;modulesnames-imports&#34;&gt;Modules/Names Imports&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;from monmod import nom1,nom2 as fct&lt;/code&gt; &lt;em&gt;renaming with &lt;strong&gt;as&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;import monmod&lt;/code&gt; &lt;em&gt;access via &lt;strong&gt;monmod.nom1&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;conditional-statements&#34;&gt;Conditional Statements&lt;/h5&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;if logical condition:
+    statemnet block
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Can go with several elif, elif&amp;hellip; and only one final else. Only the block of first true condition is executed.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;if age&amp;lt;=18:
+    state=&amp;#34;Kid&amp;#34;
+elif age&amp;gt;65:
+    state=&amp;#34;Retired&amp;#34;
+else:
+    state=&amp;#34;Active&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&#34;math&#34;&gt;Math&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;from math import sin, pi, cos, sqrt, log, ceil, floor&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Operators&lt;/th&gt;
+&lt;th&gt;Meaning&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;+&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Addition&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Subtraction&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;*&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Multiplication&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Division&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;//&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Floor Division&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;%&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Modulus&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;**&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Exponentiation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Modules&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;math&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;statistics&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;random&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;decimal&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;fractions&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;numpy&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;etc.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">Create an SSL Certificate for IIS 10</title>
             <link rel="alternate" type="text/html" href="https://piperwilliams.work/posts/iisssl/" />
             <id>https://piperwilliams.work/posts/iisssl/</id>
-            <updated>2023-07-28T15:03:19-07:00</updated>
+            <updated>2023-08-21T20:07:22-07:00</updated>
             <published>2023-07-28T14:21:21-07:00</published>
             <author>
                     <name>Piper Williams</name>
@@ -150,7 +527,7 @@
             <title type="text">Azure Blob Storage &#43; .NET Client Library</title>
             <link rel="alternate" type="text/html" href="https://piperwilliams.work/posts/azureblobstorage/" />
             <id>https://piperwilliams.work/posts/azureblobstorage/</id>
-            <updated>2023-07-28T14:14:17-07:00</updated>
+            <updated>2023-08-21T20:05:13-07:00</updated>
             <published>2021-02-21T00:00:00&#43;00:00</published>
             <author>
                     <name>Piper Williams</name>
@@ -459,7 +836,7 @@
             <title type="text">Use a Windows VM system-assigned managed identity to access Azure Storage via a SAS credential</title>
             <link rel="alternate" type="text/html" href="https://piperwilliams.work/posts/azurepowershell/" />
             <id>https://piperwilliams.work/posts/azurepowershell/</id>
-            <updated>2023-07-29T00:31:48-07:00</updated>
+            <updated>2023-08-21T20:07:16-07:00</updated>
             <published>2021-02-10T00:00:00&#43;00:00</published>
             <author>
                     <name>Piper Williams</name>
