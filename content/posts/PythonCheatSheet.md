@@ -2,6 +2,13 @@
 title: "PythonCheatSheet"
 date: 2023-08-21T20:07:55-07:00
 draft: false
+tags: [
+    "Python"
+]
+categories: [
+    "Python"
+]
+
 ---
 
 
@@ -162,6 +169,36 @@ elif age>65:
 else:
     state="Active"
 ```
+
+##### Conditional Loop Statement 
+*statement block executed as long as condition is true*
+```
+while logical condition: 
+    statement block
+```
+**Loop Control**
+- `break` *immediate exit*
+- `continue` *next iteration*
+- `else` *normal loop exit*
+
+##### Iterative Loop Statement 
+*statement block executed for each item of a container or iterator*
+```
+for var in sequence: 
+    statement block
+```
+```
+lst = [11,18,9,12,23,4,17]
+lost = []
+for idx in range(len(lst)):
+    val = lst[idx]
+    if val > 15:
+        lost.append(val)
+        lst[idx] = 15
+print("modif:",lst,"-lost:",lost)
+```
+
+
 ##### Math
 `from math import sin, pi, cos, sqrt, log, ceil, floor`
 Operators | Meaning
@@ -182,6 +219,35 @@ Operators | Meaning
 | numpy 
 | etc. 
 
+
+##### Container Options
+- `len(c)` *items count*
+- `min(c)` `max(c)` `sum(c)`
+- `sorted(c)` *list sorted copy*
+- `val in c` *boolean, membership operator in (absence not in)*
+- `enumerate(c)` *iterator on (index, value)*
+- `zip(c1,c2)` *iterator on tuples containing c, items at same index*
+- `all(c)` *True if all c items evaluated to true, else False*
+- `any(c)` *True if at least one item of c evaluated to true, else False*
+*Specific to ordered sequence containers (list, typles, strings, bytes)*
+- `reversed(c)` *inversed iterator*
+- `c.index(val)`
+- `c.count(val)` 
+`import copy`
+- `copy.copy(c)` *shallow copy of container*
+- `copy.deepcopy(c)` *deep copy of container*
+
+##### Operations on Lists
+- `lst.append(val)`
+- `lst.extend(seq)` *add sequence of items at end*
+- `lst.insert(idx,val)` 
+- `lst.remove(val)`
+- `lst.pop(idx)` *remove and return item at index (default last)*
+- `lst.sort()`
+- `lst.reverse()`
+
+##### References
+[Python Cheat Sheet](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)
 
 
 
